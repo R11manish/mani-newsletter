@@ -36,7 +36,7 @@ app.post('/',function(req, res){
 
     const options = {
         method :"post",
-        auth :"jmtss:dd4e35d609d8bd924b961268960efc5a-us17"
+        auth :"jmtss:dd460efc5a-us17"
 
     }
   const request =  https.request(url, options , function(response){
@@ -53,8 +53,7 @@ app.post('/',function(req, res){
     request.write(jsonData);
     request.end();
 })
-//api key :dd4e35d609d8bd924b961268960efc5a-us17
-//unique id :590f0b763a
+
 
 app.post('/failure',function(req,res)
 {
